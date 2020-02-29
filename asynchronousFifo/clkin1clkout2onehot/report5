@@ -1,0 +1,71 @@
+Loading db file '/netdisk/tmp/saed/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_typ.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : fifo
+Version: I-2013.12-SP5-4
+Date   : Fri Apr 26 19:54:14 2019
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ (File: /netdisk/tmp/saed/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_typ.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+fifo                   280000            saed90nm_typ
+write_logic_depth7_width8
+                       8000              saed90nm_typ
+read_logic_depth7_width8
+                       8000              saed90nm_typ
+fifo_memory_mem_width32_mem_depth128_depth7
+                       280000            saed90nm_typ
+sync_wr2rd_width8_depth7
+                       8000              saed90nm_typ
+sync_rd2wr_width8_depth7
+                       8000              saed90nm_typ
+write_logic_depth7_width8_DW01_inc_0
+                       ForQA             saed90nm_typ
+read_logic_depth7_width8_DW01_inc_0
+                       ForQA             saed90nm_typ
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 990.6899 uW   (50%)
+  Net Switching Power  = 997.0999 uW   (50%)
+                         ---------
+Total Dynamic Power    =   1.9878 mW  (100%)
+
+Cell Leakage Power     = 691.5231 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register         263.6213           15.2126        1.6766e+07          295.5994  (  11.03%)
+sequential         5.7013           12.0479        4.1721e+08          434.9553  (  16.23%)
+combinational    721.3636          969.8407        2.5755e+08        1.9488e+03  (  72.73%)
+--------------------------------------------------------------------------------------------------
+Total            990.6862 uW       997.1013 uW     6.9152e+08 pW     2.6793e+03 uW
+1

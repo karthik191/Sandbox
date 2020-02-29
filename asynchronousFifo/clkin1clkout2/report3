@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : fifo
+Version: I-2013.12-SP5-4
+Date   : Fri Apr 26 19:19:59 2019
+****************************************
+
+
+   max_delay/setup ('clk_in' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   w1/wptr_reg[2]/D             0.91           1.55 r        -0.63  (VIOLATED)
+   w1/wptr_reg[5]/D             0.91           1.55 r        -0.63  (VIOLATED)
+   w1/wptr_reg[4]/D             0.91           1.55 r        -0.63  (VIOLATED)
+   w1/wptr_reg[1]/D             0.91           1.55 r        -0.63  (VIOLATED)
+   w1/wptr_reg[7]/D             0.91           1.55 r        -0.63  (VIOLATED)
+   w1/wptr_reg[0]/D             0.92           1.55 r        -0.63  (VIOLATED)
+   w1/wptr_reg[3]/D             0.92           1.55 r        -0.63  (VIOLATED)
+   w1/wptr_reg[6]/D             0.92           1.55 r        -0.63  (VIOLATED)
+   w1/write_addr_reg[0]/D       0.91           1.52 r        -0.61  (VIOLATED)
+   w1/write_addr_reg[3]/D       0.92           1.52 r        -0.61  (VIOLATED)
+   w1/write_addr_reg[6]/D       0.91           1.52 r        -0.61  (VIOLATED)
+   w1/write_addr_reg[5]/D       0.91           1.52 r        -0.61  (VIOLATED)
+   w1/write_addr_reg[4]/D       0.91           1.52 r        -0.61  (VIOLATED)
+   w1/write_addr_reg[2]/D       0.91           1.52 r        -0.61  (VIOLATED)
+   w1/write_addr_reg[1]/D       0.91           1.52 r        -0.61  (VIOLATED)
+   w1/write_enable_reg/D        0.92           1.52 r        -0.60  (VIOLATED)
+   w1/full_reg/D                0.92           1.36 r        -0.44  (VIOLATED)
+   w1/current_state_reg[1]/D
+                                0.94           1.33 f        -0.40  (VIOLATED)
+   w1/current_state_reg[0]/D
+                                0.94           1.20 f        -0.25  (VIOLATED)
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   fifo                         0.00       247763.19      -247763.19
+                                                                    (VIOLATED)
+
+
+1

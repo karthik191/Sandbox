@@ -1,0 +1,1311 @@
+ 
+****************************************
+Report : Attribute
+Design : fifo
+Version: I-2013.12-SP5-4
+Date   : Fri Apr 26 19:25:42 2019
+****************************************
+
+Design          Object             Type      Attribute Name            Value
+--------------------------------------------------------------------------------
+fifo            fifo               design    compile_tot_wall_time     79.136726
+fifo            fifo               design    compile_cpu_hostname      olympia
+fifo            fifo               design    ice_canonical_xor2_delay  0.078173
+fifo            fifo               design    ice_canonical_nand2_delay 0.028887
+fifo            fifo               design    testdb_meth_sig_usage_option
+                                                                       98307
+fifo            fifo               design    testdb_meth_sig_usage     106499
+fifo            fifo               design    testdb_meth_name          multiplexed_flip_flop
+fifo            fifo               design    map_effort_option         3
+fifo            fifo               design    map                       true
+fifo            fifo               design    exact_sequential_map      false
+fifo            fifo               design    pads_thru_hier            false
+fifo            fifo               design    pads_respect_hier         false
+fifo            fifo               design    instance_name_suffix      
+fifo            fifo               design    compile_tdrs_cpu_time     2.239746
+fifo            fifo               design    compile_lib_cpu_time      0.000000
+fifo            fifo               design    compile_tot_cpu_time      77.597229
+fifo            fifo               design    compile_rbo_cpu_time      58.264160
+fifo            fifo               design    compile_abo_cpu_time      16.242188
+fifo            fifo               design    temperature_from_min_lib  25.000000
+fifo            fifo               design    temperature_from_max_lib  25.000000
+fifo            fifo               design    max_area                  0.000000
+fifo            fifo               design    design_voltage_unit       1000.000000
+fifo            fifo               design    design_current_unit       0.001000
+fifo            fifo               design    design_resistance_unit    999.999939
+fifo            fifo               design    design_cap_unit           0.001000
+fifo            fifo               design    design_time_unit          1.000000
+fifo            fifo               design    ungroup_all_option        false
+fifo            fifo               design    redundancy_removal        true
+fifo            fifo               design    scan_state_route_serial   false
+fifo            fifo               design    scan_state_route_clocks   false
+fifo            fifo               design    scan_state_route_enables  false
+fifo            fifo               design    scan_state_type           1
+fifo            fifo               design    min_wire_load_selection_type
+                                                                       0
+fifo            fifo               design    wire_load_selection_type  6
+fifo            fifo               design    hdl_library               WORK
+fifo            fifo               design    hdl_template              fifo
+fifo            fifo               design    hdl_canonical_default_params
+                                                                       depth=32'h00000007,mem_depth=32'h00000080,mem_width=32'h00000020,width=32'h00000008
+fifo            fifo               design    hdl_default_parameters    mem_width => 32, mem_depth => 128, depth => 7, width => 8
+fifo            fifo               design    hdl_canonical_params      
+fifo            fifo               design    hdl_parameters            
+fifo            fifo               design    link_design_libraries     WORK, DEFAULT
+fifo            fifo               design    presto_gtech_count        5
+fifo            m1                 cell      hdl_library               WORK
+fifo            m1                 cell      array_ref                 0
+fifo            r1                 cell      hdl_library               WORK
+fifo            r1                 cell      array_ref                 0
+fifo            r2w1               cell      hdl_library               WORK
+fifo            r2w1               cell      array_ref                 0
+fifo            w1                 cell      hdl_library               WORK
+fifo            w1                 cell      array_ref                 0
+fifo            w2r1               cell      hdl_library               WORK
+fifo            w2r1               cell      array_ref                 0
+fifo            clk_in             net       net_original_name         clk_in
+fifo            clk_out            net       net_original_name         clk_out
+fifo            data_in[0]         net       net_original_name         data_in[0]
+fifo            data_in[1]         net       net_original_name         data_in[1]
+fifo            data_in[2]         net       net_original_name         data_in[2]
+fifo            data_in[3]         net       net_original_name         data_in[3]
+fifo            data_in[4]         net       net_original_name         data_in[4]
+fifo            data_in[5]         net       net_original_name         data_in[5]
+fifo            data_in[6]         net       net_original_name         data_in[6]
+fifo            data_in[7]         net       net_original_name         data_in[7]
+fifo            data_in[8]         net       net_original_name         data_in[8]
+fifo            data_in[9]         net       net_original_name         data_in[9]
+fifo            data_in[10]        net       net_original_name         data_in[10]
+fifo            data_in[11]        net       net_original_name         data_in[11]
+fifo            data_in[12]        net       net_original_name         data_in[12]
+fifo            data_in[13]        net       net_original_name         data_in[13]
+fifo            data_in[14]        net       net_original_name         data_in[14]
+fifo            data_in[15]        net       net_original_name         data_in[15]
+fifo            data_in[16]        net       net_original_name         data_in[16]
+fifo            data_in[17]        net       net_original_name         data_in[17]
+fifo            data_in[18]        net       net_original_name         data_in[18]
+fifo            data_in[19]        net       net_original_name         data_in[19]
+fifo            data_in[20]        net       net_original_name         data_in[20]
+fifo            data_in[21]        net       net_original_name         data_in[21]
+fifo            data_in[22]        net       net_original_name         data_in[22]
+fifo            data_in[23]        net       net_original_name         data_in[23]
+fifo            data_in[24]        net       net_original_name         data_in[24]
+fifo            data_in[25]        net       net_original_name         data_in[25]
+fifo            data_in[26]        net       net_original_name         data_in[26]
+fifo            data_in[27]        net       net_original_name         data_in[27]
+fifo            data_in[28]        net       net_original_name         data_in[28]
+fifo            data_in[29]        net       net_original_name         data_in[29]
+fifo            data_in[30]        net       net_original_name         data_in[30]
+fifo            data_in[31]        net       net_original_name         data_in[31]
+fifo            data_out[0]        net       net_original_name         data_out[0]
+fifo            data_out[1]        net       net_original_name         data_out[1]
+fifo            data_out[2]        net       net_original_name         data_out[2]
+fifo            data_out[3]        net       net_original_name         data_out[3]
+fifo            data_out[4]        net       net_original_name         data_out[4]
+fifo            data_out[5]        net       net_original_name         data_out[5]
+fifo            data_out[6]        net       net_original_name         data_out[6]
+fifo            data_out[7]        net       net_original_name         data_out[7]
+fifo            data_out[8]        net       net_original_name         data_out[8]
+fifo            data_out[9]        net       net_original_name         data_out[9]
+fifo            data_out[10]       net       net_original_name         data_out[10]
+fifo            data_out[11]       net       net_original_name         data_out[11]
+fifo            data_out[12]       net       net_original_name         data_out[12]
+fifo            data_out[13]       net       net_original_name         data_out[13]
+fifo            data_out[14]       net       net_original_name         data_out[14]
+fifo            data_out[15]       net       net_original_name         data_out[15]
+fifo            data_out[16]       net       net_original_name         data_out[16]
+fifo            data_out[17]       net       net_original_name         data_out[17]
+fifo            data_out[18]       net       net_original_name         data_out[18]
+fifo            data_out[19]       net       net_original_name         data_out[19]
+fifo            data_out[20]       net       net_original_name         data_out[20]
+fifo            data_out[21]       net       net_original_name         data_out[21]
+fifo            data_out[22]       net       net_original_name         data_out[22]
+fifo            data_out[23]       net       net_original_name         data_out[23]
+fifo            data_out[24]       net       net_original_name         data_out[24]
+fifo            data_out[25]       net       net_original_name         data_out[25]
+fifo            data_out[26]       net       net_original_name         data_out[26]
+fifo            data_out[27]       net       net_original_name         data_out[27]
+fifo            data_out[28]       net       net_original_name         data_out[28]
+fifo            data_out[29]       net       net_original_name         data_out[29]
+fifo            data_out[30]       net       net_original_name         data_out[30]
+fifo            data_out[31]       net       net_original_name         data_out[31]
+fifo            empty              net       net_original_name         empty
+fifo            flush              net       net_original_name         flush
+fifo            full               net       net_original_name         full
+fifo            insert             net       net_original_name         insert
+fifo            r2wsync_ff2[0]     net       net_original_name         r2wsync_ff2[0]
+fifo            r2wsync_ff2[1]     net       net_original_name         r2wsync_ff2[1]
+fifo            r2wsync_ff2[2]     net       net_original_name         r2wsync_ff2[2]
+fifo            r2wsync_ff2[3]     net       net_original_name         r2wsync_ff2[3]
+fifo            r2wsync_ff2[4]     net       net_original_name         r2wsync_ff2[4]
+fifo            r2wsync_ff2[5]     net       net_original_name         r2wsync_ff2[5]
+fifo            r2wsync_ff2[6]     net       net_original_name         r2wsync_ff2[6]
+fifo            r2wsync_ff2[7]     net       net_original_name         r2wsync_ff2[7]
+fifo            read_addr[0]       net       net_original_name         read_addr[0]
+fifo            read_addr[1]       net       net_original_name         read_addr[1]
+fifo            read_addr[2]       net       net_original_name         read_addr[2]
+fifo            read_addr[3]       net       net_original_name         read_addr[3]
+fifo            read_addr[4]       net       net_original_name         read_addr[4]
+fifo            read_addr[5]       net       net_original_name         read_addr[5]
+fifo            read_addr[6]       net       net_original_name         read_addr[6]
+fifo            read_enable        net       net_original_name         read_enable
+fifo            remove             net       net_original_name         remove
+fifo            reset              net       net_original_name         reset
+fifo            rptr[0]            net       net_original_name         rptr[0]
+fifo            rptr[1]            net       net_original_name         rptr[1]
+fifo            rptr[2]            net       net_original_name         rptr[2]
+fifo            rptr[3]            net       net_original_name         rptr[3]
+fifo            rptr[4]            net       net_original_name         rptr[4]
+fifo            rptr[5]            net       net_original_name         rptr[5]
+fifo            rptr[6]            net       net_original_name         rptr[6]
+fifo            rptr[7]            net       net_original_name         rptr[7]
+fifo            syn_flush          net       net_original_name         syn_flush
+fifo            temp_data_in[0]    net       net_original_name         temp_data_in[0]
+fifo            temp_data_in[1]    net       net_original_name         temp_data_in[1]
+fifo            temp_data_in[2]    net       net_original_name         temp_data_in[2]
+fifo            temp_data_in[3]    net       net_original_name         temp_data_in[3]
+fifo            temp_data_in[4]    net       net_original_name         temp_data_in[4]
+fifo            temp_data_in[5]    net       net_original_name         temp_data_in[5]
+fifo            temp_data_in[6]    net       net_original_name         temp_data_in[6]
+fifo            temp_data_in[7]    net       net_original_name         temp_data_in[7]
+fifo            temp_data_in[8]    net       net_original_name         temp_data_in[8]
+fifo            temp_data_in[9]    net       net_original_name         temp_data_in[9]
+fifo            temp_data_in[10]   net       net_original_name         temp_data_in[10]
+fifo            temp_data_in[11]   net       net_original_name         temp_data_in[11]
+fifo            temp_data_in[12]   net       net_original_name         temp_data_in[12]
+fifo            temp_data_in[13]   net       net_original_name         temp_data_in[13]
+fifo            temp_data_in[14]   net       net_original_name         temp_data_in[14]
+fifo            temp_data_in[15]   net       net_original_name         temp_data_in[15]
+fifo            temp_data_in[16]   net       net_original_name         temp_data_in[16]
+fifo            temp_data_in[17]   net       net_original_name         temp_data_in[17]
+fifo            temp_data_in[18]   net       net_original_name         temp_data_in[18]
+fifo            temp_data_in[19]   net       net_original_name         temp_data_in[19]
+fifo            temp_data_in[20]   net       net_original_name         temp_data_in[20]
+fifo            temp_data_in[21]   net       net_original_name         temp_data_in[21]
+fifo            temp_data_in[22]   net       net_original_name         temp_data_in[22]
+fifo            temp_data_in[23]   net       net_original_name         temp_data_in[23]
+fifo            temp_data_in[24]   net       net_original_name         temp_data_in[24]
+fifo            temp_data_in[25]   net       net_original_name         temp_data_in[25]
+fifo            temp_data_in[26]   net       net_original_name         temp_data_in[26]
+fifo            temp_data_in[27]   net       net_original_name         temp_data_in[27]
+fifo            temp_data_in[28]   net       net_original_name         temp_data_in[28]
+fifo            temp_data_in[29]   net       net_original_name         temp_data_in[29]
+fifo            temp_data_in[30]   net       net_original_name         temp_data_in[30]
+fifo            temp_data_in[31]   net       net_original_name         temp_data_in[31]
+fifo            w2rsync_ff2[0]     net       net_original_name         w2rsync_ff2[0]
+fifo            w2rsync_ff2[1]     net       net_original_name         w2rsync_ff2[1]
+fifo            w2rsync_ff2[2]     net       net_original_name         w2rsync_ff2[2]
+fifo            w2rsync_ff2[3]     net       net_original_name         w2rsync_ff2[3]
+fifo            w2rsync_ff2[4]     net       net_original_name         w2rsync_ff2[4]
+fifo            w2rsync_ff2[5]     net       net_original_name         w2rsync_ff2[5]
+fifo            w2rsync_ff2[6]     net       net_original_name         w2rsync_ff2[6]
+fifo            w2rsync_ff2[7]     net       net_original_name         w2rsync_ff2[7]
+fifo            wptr[0]            net       net_original_name         wptr[0]
+fifo            wptr[1]            net       net_original_name         wptr[1]
+fifo            wptr[2]            net       net_original_name         wptr[2]
+fifo            wptr[3]            net       net_original_name         wptr[3]
+fifo            wptr[4]            net       net_original_name         wptr[4]
+fifo            wptr[5]            net       net_original_name         wptr[5]
+fifo            wptr[6]            net       net_original_name         wptr[6]
+fifo            wptr[7]            net       net_original_name         wptr[7]
+fifo            write_addr[0]      net       net_original_name         write_addr[0]
+fifo            write_addr[1]      net       net_original_name         write_addr[1]
+fifo            write_addr[2]      net       net_original_name         write_addr[2]
+fifo            write_addr[3]      net       net_original_name         write_addr[3]
+fifo            write_addr[4]      net       net_original_name         write_addr[4]
+fifo            write_addr[5]      net       net_original_name         write_addr[5]
+fifo            write_addr[6]      net       net_original_name         write_addr[6]
+fifo            write_enable       net       net_original_name         write_enable
+fifo            r2w1/clk_in        pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/clk_in          pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/clk_out       pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/clk_out         pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[0]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[1]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[2]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[3]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[4]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[5]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[6]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[7]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[8]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[9]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[10]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[11]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[12]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[13]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[14]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[15]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[16]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[17]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[18]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[19]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[20]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[21]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[22]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[23]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[24]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[25]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[26]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[27]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[28]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[29]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[30]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp_data_in_reg[31]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[0]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[1]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[2]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[3]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[4]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[5]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[6]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[7]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[8]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[9]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[10]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[11]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[12]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[13]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[14]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[15]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[16]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[17]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[18]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[19]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[20]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[21]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[22]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[23]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[24]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[25]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[26]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[27]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[28]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[29]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[30]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/temp4_reg[31]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff2_reg[0]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff2_reg[1]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff2_reg[2]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff2_reg[3]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff2_reg[4]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff2_reg[5]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff2_reg[6]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff2_reg[7]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff1_reg[0]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff1_reg[1]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff1_reg[2]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff1_reg[3]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff1_reg[4]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff1_reg[5]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff1_reg[6]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r2w1/r2wsync_ff1_reg[7]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/syn_flush_reg/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/sync_flush1_reg/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff2_reg[0]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff2_reg[1]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff2_reg[2]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff2_reg[3]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff2_reg[4]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff2_reg[5]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff2_reg[6]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff2_reg[7]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff1_reg[0]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff1_reg[1]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff1_reg[2]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff1_reg[3]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff1_reg[4]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff1_reg[5]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff1_reg[6]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w2r1/w2rsync_ff1_reg[7]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/empty_reg/CLK   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/rptr_reg[3]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/rptr_reg[2]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/rptr_reg[7]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/current_state_reg[0]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/read_addr_reg[0]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/read_addr_reg[6]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/read_enable_reg/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/read_addr_reg[1]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/rptr_reg[1]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/read_addr_reg[2]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/read_addr_reg[3]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/read_addr_reg[4]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/rptr_reg[4]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/read_addr_reg[5]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/rptr_reg[5]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/rptr_reg[6]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/rptr_reg[0]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/wptr_reg[1]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/wptr_reg[0]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/write_addr_reg[0]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/write_addr_reg[1]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/write_addr_reg[2]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/write_addr_reg[3]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/write_addr_reg[4]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/write_addr_reg[5]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/write_addr_reg[6]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/full_reg/CLK    pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/wptr_reg[2]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/wptr_reg[3]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/wptr_reg[4]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/wptr_reg[5]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/wptr_reg[6]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/write_enable_reg/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/wptr_reg[7]/CLK pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            w1/current_state_reg[0]/CLK
+                                   pin       pin_on_clock_network_per_scn
+                                                                       true
+fifo            r1/add_85/U1_1_1   cell      map_only                  true
+fifo            r1/add_85/U1_1_2   cell      map_only                  true
+fifo            r1/add_85/U1_1_3   cell      map_only                  true
+fifo            r1/add_85/U1_1_4   cell      map_only                  true
+fifo            r1/add_85/U1_1_5   cell      map_only                  true
+fifo            r1/current_state_reg[0]
+                                   cell      ff_edge_sense             1
+fifo            r1/current_state_reg[1]
+                                   cell      ff_edge_sense             1
+fifo            r1/empty_reg       cell      ff_edge_sense             1
+fifo            r1/read_addr_reg[0]
+                                   cell      ff_edge_sense             1
+fifo            r1/read_addr_reg[1]
+                                   cell      ff_edge_sense             1
+fifo            r1/read_addr_reg[2]
+                                   cell      ff_edge_sense             1
+fifo            r1/read_addr_reg[3]
+                                   cell      ff_edge_sense             1
+fifo            r1/read_addr_reg[4]
+                                   cell      ff_edge_sense             1
+fifo            r1/read_addr_reg[5]
+                                   cell      ff_edge_sense             1
+fifo            r1/read_addr_reg[6]
+                                   cell      ff_edge_sense             1
+fifo            r1/read_enable_reg cell      ff_edge_sense             1
+fifo            r1/rptr_reg[0]     cell      ff_edge_sense             1
+fifo            r1/rptr_reg[1]     cell      ff_edge_sense             1
+fifo            r1/rptr_reg[2]     cell      ff_edge_sense             1
+fifo            r1/rptr_reg[3]     cell      ff_edge_sense             1
+fifo            r1/rptr_reg[4]     cell      ff_edge_sense             1
+fifo            r1/rptr_reg[5]     cell      ff_edge_sense             1
+fifo            r1/rptr_reg[6]     cell      ff_edge_sense             1
+fifo            r1/rptr_reg[7]     cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff1_reg[0]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff1_reg[1]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff1_reg[2]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff1_reg[3]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff1_reg[4]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff1_reg[5]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff1_reg[6]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff1_reg[7]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff2_reg[0]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff2_reg[1]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff2_reg[2]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff2_reg[3]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff2_reg[4]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff2_reg[5]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff2_reg[6]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/r2wsync_ff2_reg[7]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[0]  cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[1]  cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[2]  cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[3]  cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[4]  cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[5]  cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[6]  cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[7]  cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[8]  cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[9]  cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[10] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[11] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[12] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[13] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[14] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[15] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[16] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[17] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[18] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[19] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[20] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[21] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[22] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[23] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[24] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[25] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[26] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[27] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[28] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[29] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[30] cell      ff_edge_sense             1
+fifo            r2w1/temp4_reg[31] cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[0]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[1]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[2]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[3]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[4]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[5]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[6]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[7]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[8]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[9]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[10]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[11]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[12]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[13]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[14]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[15]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[16]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[17]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[18]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[19]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[20]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[21]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[22]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[23]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[24]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[25]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[26]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[27]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[28]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[29]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[30]
+                                   cell      ff_edge_sense             1
+fifo            r2w1/temp_data_in_reg[31]
+                                   cell      ff_edge_sense             1
+fifo            w1/add_79/U1_1_1   cell      map_only                  true
+fifo            w1/add_79/U1_1_2   cell      map_only                  true
+fifo            w1/add_79/U1_1_3   cell      map_only                  true
+fifo            w1/add_79/U1_1_4   cell      map_only                  true
+fifo            w1/add_79/U1_1_5   cell      map_only                  true
+fifo            w1/add_79/U1_1_6   cell      map_only                  true
+fifo            w1/current_state_reg[0]
+                                   cell      ff_edge_sense             1
+fifo            w1/current_state_reg[1]
+                                   cell      ff_edge_sense             1
+fifo            w1/full_reg        cell      ff_edge_sense             1
+fifo            w1/wptr_reg[0]     cell      ff_edge_sense             1
+fifo            w1/wptr_reg[1]     cell      ff_edge_sense             1
+fifo            w1/wptr_reg[2]     cell      ff_edge_sense             1
+fifo            w1/wptr_reg[3]     cell      ff_edge_sense             1
+fifo            w1/wptr_reg[4]     cell      ff_edge_sense             1
+fifo            w1/wptr_reg[5]     cell      ff_edge_sense             1
+fifo            w1/wptr_reg[6]     cell      ff_edge_sense             1
+fifo            w1/wptr_reg[7]     cell      ff_edge_sense             1
+fifo            w1/write_addr_reg[0]
+                                   cell      ff_edge_sense             1
+fifo            w1/write_addr_reg[1]
+                                   cell      ff_edge_sense             1
+fifo            w1/write_addr_reg[2]
+                                   cell      ff_edge_sense             1
+fifo            w1/write_addr_reg[3]
+                                   cell      ff_edge_sense             1
+fifo            w1/write_addr_reg[4]
+                                   cell      ff_edge_sense             1
+fifo            w1/write_addr_reg[5]
+                                   cell      ff_edge_sense             1
+fifo            w1/write_addr_reg[6]
+                                   cell      ff_edge_sense             1
+fifo            w1/write_enable_reg
+                                   cell      ff_edge_sense             1
+fifo            w2r1/syn_flush_reg cell      ff_edge_sense             1
+fifo            w2r1/sync_flush1_reg
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff1_reg[0]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff1_reg[1]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff1_reg[2]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff1_reg[3]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff1_reg[4]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff1_reg[5]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff1_reg[6]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff1_reg[7]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff2_reg[0]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff2_reg[1]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff2_reg[2]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff2_reg[3]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff2_reg[4]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff2_reg[5]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff2_reg[6]
+                                   cell      ff_edge_sense             1
+fifo            w2r1/w2rsync_ff2_reg[7]
+                                   cell      ff_edge_sense             1
+fifo            m1/N15             net       net_original_name         read_addr[0]
+fifo            m1/N16             net       net_original_name         read_addr[1]
+fifo            m1/N17             net       net_original_name         read_addr[2]
+fifo            m1/N18             net       net_original_name         read_addr[3]
+fifo            m1/N19             net       net_original_name         read_addr[4]
+fifo            m1/N20             net       net_original_name         read_addr[5]
+fifo            m1/N21             net       net_original_name         read_addr[6]
+fifo            m1/data_out[0]     net       net_original_name         data_out[0]
+fifo            m1/data_out[1]     net       net_original_name         data_out[1]
+fifo            m1/data_out[2]     net       net_original_name         data_out[2]
+fifo            m1/data_out[3]     net       net_original_name         data_out[3]
+fifo            m1/data_out[4]     net       net_original_name         data_out[4]
+fifo            m1/data_out[5]     net       net_original_name         data_out[5]
+fifo            m1/data_out[6]     net       net_original_name         data_out[6]
+fifo            m1/data_out[7]     net       net_original_name         data_out[7]
+fifo            m1/data_out[8]     net       net_original_name         data_out[8]
+fifo            m1/data_out[9]     net       net_original_name         data_out[9]
+fifo            m1/data_out[10]    net       net_original_name         data_out[10]
+fifo            m1/data_out[11]    net       net_original_name         data_out[11]
+fifo            m1/data_out[12]    net       net_original_name         data_out[12]
+fifo            m1/data_out[13]    net       net_original_name         data_out[13]
+fifo            m1/data_out[14]    net       net_original_name         data_out[14]
+fifo            m1/data_out[15]    net       net_original_name         data_out[15]
+fifo            m1/data_out[16]    net       net_original_name         data_out[16]
+fifo            m1/data_out[17]    net       net_original_name         data_out[17]
+fifo            m1/data_out[18]    net       net_original_name         data_out[18]
+fifo            m1/data_out[19]    net       net_original_name         data_out[19]
+fifo            m1/data_out[20]    net       net_original_name         data_out[20]
+fifo            m1/data_out[21]    net       net_original_name         data_out[21]
+fifo            m1/data_out[22]    net       net_original_name         data_out[22]
+fifo            m1/data_out[23]    net       net_original_name         data_out[23]
+fifo            m1/data_out[24]    net       net_original_name         data_out[24]
+fifo            m1/data_out[25]    net       net_original_name         data_out[25]
+fifo            m1/data_out[26]    net       net_original_name         data_out[26]
+fifo            m1/data_out[27]    net       net_original_name         data_out[27]
+fifo            m1/data_out[28]    net       net_original_name         data_out[28]
+fifo            m1/data_out[29]    net       net_original_name         data_out[29]
+fifo            m1/data_out[30]    net       net_original_name         data_out[30]
+fifo            m1/data_out[31]    net       net_original_name         data_out[31]
+fifo            m1/flush           net       net_original_name         flush
+fifo            m1/read_enable     net       net_original_name         read_enable
+fifo            m1/reset           net       net_original_name         reset
+fifo            m1/temp_data_in[0] net       net_original_name         temp_data_in[0]
+fifo            m1/temp_data_in[1] net       net_original_name         temp_data_in[1]
+fifo            m1/temp_data_in[2] net       net_original_name         temp_data_in[2]
+fifo            m1/temp_data_in[3] net       net_original_name         temp_data_in[3]
+fifo            m1/temp_data_in[4] net       net_original_name         temp_data_in[4]
+fifo            m1/temp_data_in[5] net       net_original_name         temp_data_in[5]
+fifo            m1/temp_data_in[6] net       net_original_name         temp_data_in[6]
+fifo            m1/temp_data_in[7] net       net_original_name         temp_data_in[7]
+fifo            m1/temp_data_in[8] net       net_original_name         temp_data_in[8]
+fifo            m1/temp_data_in[9] net       net_original_name         temp_data_in[9]
+fifo            m1/temp_data_in[10]
+                                   net       net_original_name         temp_data_in[10]
+fifo            m1/temp_data_in[11]
+                                   net       net_original_name         temp_data_in[11]
+fifo            m1/temp_data_in[12]
+                                   net       net_original_name         temp_data_in[12]
+fifo            m1/temp_data_in[13]
+                                   net       net_original_name         temp_data_in[13]
+fifo            m1/temp_data_in[14]
+                                   net       net_original_name         temp_data_in[14]
+fifo            m1/temp_data_in[15]
+                                   net       net_original_name         temp_data_in[15]
+fifo            m1/temp_data_in[16]
+                                   net       net_original_name         temp_data_in[16]
+fifo            m1/temp_data_in[17]
+                                   net       net_original_name         temp_data_in[17]
+fifo            m1/temp_data_in[18]
+                                   net       net_original_name         temp_data_in[18]
+fifo            m1/temp_data_in[19]
+                                   net       net_original_name         temp_data_in[19]
+fifo            m1/temp_data_in[20]
+                                   net       net_original_name         temp_data_in[20]
+fifo            m1/temp_data_in[21]
+                                   net       net_original_name         temp_data_in[21]
+fifo            m1/temp_data_in[22]
+                                   net       net_original_name         temp_data_in[22]
+fifo            m1/temp_data_in[23]
+                                   net       net_original_name         temp_data_in[23]
+fifo            m1/temp_data_in[24]
+                                   net       net_original_name         temp_data_in[24]
+fifo            m1/temp_data_in[25]
+                                   net       net_original_name         temp_data_in[25]
+fifo            m1/temp_data_in[26]
+                                   net       net_original_name         temp_data_in[26]
+fifo            m1/temp_data_in[27]
+                                   net       net_original_name         temp_data_in[27]
+fifo            m1/temp_data_in[28]
+                                   net       net_original_name         temp_data_in[28]
+fifo            m1/temp_data_in[29]
+                                   net       net_original_name         temp_data_in[29]
+fifo            m1/temp_data_in[30]
+                                   net       net_original_name         temp_data_in[30]
+fifo            m1/temp_data_in[31]
+                                   net       net_original_name         temp_data_in[31]
+fifo            m1/write_addr[0]   net       decoder_net               0
+fifo            m1/write_addr[0]   net       net_original_name         write_addr[0]
+fifo            m1/write_addr[1]   net       decoder_net               1
+fifo            m1/write_addr[1]   net       net_original_name         write_addr[1]
+fifo            m1/write_addr[2]   net       decoder_net               2
+fifo            m1/write_addr[2]   net       net_original_name         write_addr[2]
+fifo            m1/write_addr[3]   net       decoder_net               3
+fifo            m1/write_addr[3]   net       net_original_name         write_addr[3]
+fifo            m1/write_addr[4]   net       decoder_net               4
+fifo            m1/write_addr[4]   net       net_original_name         write_addr[4]
+fifo            m1/write_addr[5]   net       decoder_net               5
+fifo            m1/write_addr[5]   net       net_original_name         write_addr[5]
+fifo            m1/write_addr[6]   net       decoder_net               6
+fifo            m1/write_addr[6]   net       net_original_name         write_addr[6]
+fifo            m1/write_enable    net       net_original_name         write_enable
+fifo            r1/add_85/A[0]     net       net_original_name         A(0)
+fifo            r1/add_85/A[0]     net       net_merge_attr            carry[1]
+fifo            r1/add_85/A[1]     net       net_original_name         A(1)
+fifo            r1/add_85/A[2]     net       net_original_name         A(2)
+fifo            r1/add_85/A[3]     net       net_original_name         A(3)
+fifo            r1/add_85/A[4]     net       net_original_name         A(4)
+fifo            r1/add_85/A[5]     net       net_original_name         A(5)
+fifo            r1/add_85/A[6]     net       net_original_name         A(6)
+fifo            r1/add_85/A[7]     net       net_original_name         A(7)
+fifo            r1/add_85/SUM[1]   net       net_original_name         SUM(1)
+fifo            r1/add_85/SUM[2]   net       net_original_name         SUM(2)
+fifo            r1/add_85/SUM[3]   net       net_original_name         SUM(3)
+fifo            r1/add_85/SUM[4]   net       net_original_name         SUM(4)
+fifo            r1/add_85/SUM[5]   net       net_original_name         SUM(5)
+fifo            r1/add_85/SUM[6]   net       net_original_name         SUM(6)
+fifo            r1/add_85/SUM[7]   net       net_original_name         SUM(7)
+fifo            r1/add_85/carry[2] net       net_original_name         carry(2)
+fifo            r1/add_85/carry[3] net       net_original_name         carry(3)
+fifo            r1/add_85/carry[4] net       net_original_name         carry(4)
+fifo            r1/add_85/carry[5] net       net_original_name         carry(5)
+fifo            r1/add_85/carry[6] net       net_original_name         carry(6)
+fifo            r1/clk_out         net       net_original_name         clk_out
+fifo            r1/empty           net       net_original_name         empty
+fifo            r1/n83             net       net_original_name         rptr[6]
+fifo            r1/n84             net       net_original_name         rptr[5]
+fifo            r1/n85             net       net_original_name         rptr[4]
+fifo            r1/n86             net       net_original_name         rptr[3]
+fifo            r1/n87             net       net_original_name         rptr[2]
+fifo            r1/n88             net       net_original_name         rptr[1]
+fifo            r1/n89             net       net_original_name         rptr[0]
+fifo            r1/read_addr[0]    net       net_original_name         read_addr[0]
+fifo            r1/read_addr[1]    net       net_original_name         read_addr[1]
+fifo            r1/read_addr[2]    net       net_original_name         read_addr[2]
+fifo            r1/read_addr[3]    net       net_original_name         read_addr[3]
+fifo            r1/read_addr[4]    net       net_original_name         read_addr[4]
+fifo            r1/read_addr[5]    net       net_original_name         read_addr[5]
+fifo            r1/read_addr[6]    net       net_original_name         read_addr[6]
+fifo            r1/read_enable     net       net_original_name         read_enable
+fifo            r1/remove          net       net_original_name         remove
+fifo            r1/reset           net       net_original_name         reset
+fifo            r1/syn_flush       net       net_original_name         syn_flush
+fifo            r1/w2rsync_ff2[0]  net       net_original_name         w2rsync_ff2[0]
+fifo            r1/w2rsync_ff2[1]  net       net_original_name         w2rsync_ff2[1]
+fifo            r1/w2rsync_ff2[2]  net       net_original_name         w2rsync_ff2[2]
+fifo            r1/w2rsync_ff2[3]  net       net_original_name         w2rsync_ff2[3]
+fifo            r1/w2rsync_ff2[4]  net       net_original_name         w2rsync_ff2[4]
+fifo            r1/w2rsync_ff2[5]  net       net_original_name         w2rsync_ff2[5]
+fifo            r1/w2rsync_ff2[6]  net       net_original_name         w2rsync_ff2[6]
+fifo            r1/w2rsync_ff2[7]  net       net_original_name         w2rsync_ff2[7]
+fifo            r2w1/clk_in        net       net_original_name         clk_in
+fifo            r2w1/data_in[0]    net       net_original_name         data_in[0]
+fifo            r2w1/data_in[1]    net       net_original_name         data_in[1]
+fifo            r2w1/data_in[2]    net       net_original_name         data_in[2]
+fifo            r2w1/data_in[3]    net       net_original_name         data_in[3]
+fifo            r2w1/data_in[4]    net       net_original_name         data_in[4]
+fifo            r2w1/data_in[5]    net       net_original_name         data_in[5]
+fifo            r2w1/data_in[6]    net       net_original_name         data_in[6]
+fifo            r2w1/data_in[7]    net       net_original_name         data_in[7]
+fifo            r2w1/data_in[8]    net       net_original_name         data_in[8]
+fifo            r2w1/data_in[9]    net       net_original_name         data_in[9]
+fifo            r2w1/data_in[10]   net       net_original_name         data_in[10]
+fifo            r2w1/data_in[11]   net       net_original_name         data_in[11]
+fifo            r2w1/data_in[12]   net       net_original_name         data_in[12]
+fifo            r2w1/data_in[13]   net       net_original_name         data_in[13]
+fifo            r2w1/data_in[14]   net       net_original_name         data_in[14]
+fifo            r2w1/data_in[15]   net       net_original_name         data_in[15]
+fifo            r2w1/data_in[16]   net       net_original_name         data_in[16]
+fifo            r2w1/data_in[17]   net       net_original_name         data_in[17]
+fifo            r2w1/data_in[18]   net       net_original_name         data_in[18]
+fifo            r2w1/data_in[19]   net       net_original_name         data_in[19]
+fifo            r2w1/data_in[20]   net       net_original_name         data_in[20]
+fifo            r2w1/data_in[21]   net       net_original_name         data_in[21]
+fifo            r2w1/data_in[22]   net       net_original_name         data_in[22]
+fifo            r2w1/data_in[23]   net       net_original_name         data_in[23]
+fifo            r2w1/data_in[24]   net       net_original_name         data_in[24]
+fifo            r2w1/data_in[25]   net       net_original_name         data_in[25]
+fifo            r2w1/data_in[26]   net       net_original_name         data_in[26]
+fifo            r2w1/data_in[27]   net       net_original_name         data_in[27]
+fifo            r2w1/data_in[28]   net       net_original_name         data_in[28]
+fifo            r2w1/data_in[29]   net       net_original_name         data_in[29]
+fifo            r2w1/data_in[30]   net       net_original_name         data_in[30]
+fifo            r2w1/data_in[31]   net       net_original_name         data_in[31]
+fifo            r2w1/r2wsync_ff1[0]
+                                   net       net_original_name         r2wsync_ff1[0]
+fifo            r2w1/r2wsync_ff1[1]
+                                   net       net_original_name         r2wsync_ff1[1]
+fifo            r2w1/r2wsync_ff1[2]
+                                   net       net_original_name         r2wsync_ff1[2]
+fifo            r2w1/r2wsync_ff1[3]
+                                   net       net_original_name         r2wsync_ff1[3]
+fifo            r2w1/r2wsync_ff1[4]
+                                   net       net_original_name         r2wsync_ff1[4]
+fifo            r2w1/r2wsync_ff1[5]
+                                   net       net_original_name         r2wsync_ff1[5]
+fifo            r2w1/r2wsync_ff1[6]
+                                   net       net_original_name         r2wsync_ff1[6]
+fifo            r2w1/r2wsync_ff1[7]
+                                   net       net_original_name         r2wsync_ff1[7]
+fifo            r2w1/r2wsync_ff2[0]
+                                   net       net_original_name         r2wsync_ff2[0]
+fifo            r2w1/r2wsync_ff2[1]
+                                   net       net_original_name         r2wsync_ff2[1]
+fifo            r2w1/r2wsync_ff2[2]
+                                   net       net_original_name         r2wsync_ff2[2]
+fifo            r2w1/r2wsync_ff2[3]
+                                   net       net_original_name         r2wsync_ff2[3]
+fifo            r2w1/r2wsync_ff2[4]
+                                   net       net_original_name         r2wsync_ff2[4]
+fifo            r2w1/r2wsync_ff2[5]
+                                   net       net_original_name         r2wsync_ff2[5]
+fifo            r2w1/r2wsync_ff2[6]
+                                   net       net_original_name         r2wsync_ff2[6]
+fifo            r2w1/r2wsync_ff2[7]
+                                   net       net_original_name         r2wsync_ff2[7]
+fifo            r2w1/reset         net       net_original_name         reset
+fifo            r2w1/rptr[0]       net       net_original_name         rptr[0]
+fifo            r2w1/rptr[1]       net       net_original_name         rptr[1]
+fifo            r2w1/rptr[2]       net       net_original_name         rptr[2]
+fifo            r2w1/rptr[3]       net       net_original_name         rptr[3]
+fifo            r2w1/rptr[4]       net       net_original_name         rptr[4]
+fifo            r2w1/rptr[5]       net       net_original_name         rptr[5]
+fifo            r2w1/rptr[6]       net       net_original_name         rptr[6]
+fifo            r2w1/rptr[7]       net       net_original_name         rptr[7]
+fifo            r2w1/temp4[0]      net       net_original_name         temp4[0]
+fifo            r2w1/temp4[1]      net       net_original_name         temp4[1]
+fifo            r2w1/temp4[2]      net       net_original_name         temp4[2]
+fifo            r2w1/temp4[3]      net       net_original_name         temp4[3]
+fifo            r2w1/temp4[4]      net       net_original_name         temp4[4]
+fifo            r2w1/temp4[5]      net       net_original_name         temp4[5]
+fifo            r2w1/temp4[6]      net       net_original_name         temp4[6]
+fifo            r2w1/temp4[7]      net       net_original_name         temp4[7]
+fifo            r2w1/temp4[8]      net       net_original_name         temp4[8]
+fifo            r2w1/temp4[9]      net       net_original_name         temp4[9]
+fifo            r2w1/temp4[10]     net       net_original_name         temp4[10]
+fifo            r2w1/temp4[11]     net       net_original_name         temp4[11]
+fifo            r2w1/temp4[12]     net       net_original_name         temp4[12]
+fifo            r2w1/temp4[13]     net       net_original_name         temp4[13]
+fifo            r2w1/temp4[14]     net       net_original_name         temp4[14]
+fifo            r2w1/temp4[15]     net       net_original_name         temp4[15]
+fifo            r2w1/temp4[16]     net       net_original_name         temp4[16]
+fifo            r2w1/temp4[17]     net       net_original_name         temp4[17]
+fifo            r2w1/temp4[18]     net       net_original_name         temp4[18]
+fifo            r2w1/temp4[19]     net       net_original_name         temp4[19]
+fifo            r2w1/temp4[20]     net       net_original_name         temp4[20]
+fifo            r2w1/temp4[21]     net       net_original_name         temp4[21]
+fifo            r2w1/temp4[22]     net       net_original_name         temp4[22]
+fifo            r2w1/temp4[23]     net       net_original_name         temp4[23]
+fifo            r2w1/temp4[24]     net       net_original_name         temp4[24]
+fifo            r2w1/temp4[25]     net       net_original_name         temp4[25]
+fifo            r2w1/temp4[26]     net       net_original_name         temp4[26]
+fifo            r2w1/temp4[27]     net       net_original_name         temp4[27]
+fifo            r2w1/temp4[28]     net       net_original_name         temp4[28]
+fifo            r2w1/temp4[29]     net       net_original_name         temp4[29]
+fifo            r2w1/temp4[30]     net       net_original_name         temp4[30]
+fifo            r2w1/temp4[31]     net       net_original_name         temp4[31]
+fifo            r2w1/temp_data_in[0]
+                                   net       net_original_name         temp_data_in[0]
+fifo            r2w1/temp_data_in[1]
+                                   net       net_original_name         temp_data_in[1]
+fifo            r2w1/temp_data_in[2]
+                                   net       net_original_name         temp_data_in[2]
+fifo            r2w1/temp_data_in[3]
+                                   net       net_original_name         temp_data_in[3]
+fifo            r2w1/temp_data_in[4]
+                                   net       net_original_name         temp_data_in[4]
+fifo            r2w1/temp_data_in[5]
+                                   net       net_original_name         temp_data_in[5]
+fifo            r2w1/temp_data_in[6]
+                                   net       net_original_name         temp_data_in[6]
+fifo            r2w1/temp_data_in[7]
+                                   net       net_original_name         temp_data_in[7]
+fifo            r2w1/temp_data_in[8]
+                                   net       net_original_name         temp_data_in[8]
+fifo            r2w1/temp_data_in[9]
+                                   net       net_original_name         temp_data_in[9]
+fifo            r2w1/temp_data_in[10]
+                                   net       net_original_name         temp_data_in[10]
+fifo            r2w1/temp_data_in[11]
+                                   net       net_original_name         temp_data_in[11]
+fifo            r2w1/temp_data_in[12]
+                                   net       net_original_name         temp_data_in[12]
+fifo            r2w1/temp_data_in[13]
+                                   net       net_original_name         temp_data_in[13]
+fifo            r2w1/temp_data_in[14]
+                                   net       net_original_name         temp_data_in[14]
+fifo            r2w1/temp_data_in[15]
+                                   net       net_original_name         temp_data_in[15]
+fifo            r2w1/temp_data_in[16]
+                                   net       net_original_name         temp_data_in[16]
+fifo            r2w1/temp_data_in[17]
+                                   net       net_original_name         temp_data_in[17]
+fifo            r2w1/temp_data_in[18]
+                                   net       net_original_name         temp_data_in[18]
+fifo            r2w1/temp_data_in[19]
+                                   net       net_original_name         temp_data_in[19]
+fifo            r2w1/temp_data_in[20]
+                                   net       net_original_name         temp_data_in[20]
+fifo            r2w1/temp_data_in[21]
+                                   net       net_original_name         temp_data_in[21]
+fifo            r2w1/temp_data_in[22]
+                                   net       net_original_name         temp_data_in[22]
+fifo            r2w1/temp_data_in[23]
+                                   net       net_original_name         temp_data_in[23]
+fifo            r2w1/temp_data_in[24]
+                                   net       net_original_name         temp_data_in[24]
+fifo            r2w1/temp_data_in[25]
+                                   net       net_original_name         temp_data_in[25]
+fifo            r2w1/temp_data_in[26]
+                                   net       net_original_name         temp_data_in[26]
+fifo            r2w1/temp_data_in[27]
+                                   net       net_original_name         temp_data_in[27]
+fifo            r2w1/temp_data_in[28]
+                                   net       net_original_name         temp_data_in[28]
+fifo            r2w1/temp_data_in[29]
+                                   net       net_original_name         temp_data_in[29]
+fifo            r2w1/temp_data_in[30]
+                                   net       net_original_name         temp_data_in[30]
+fifo            r2w1/temp_data_in[31]
+                                   net       net_original_name         temp_data_in[31]
+fifo            w1/add_79/A[0]     net       net_original_name         A(0)
+fifo            w1/add_79/A[0]     net       net_merge_attr            carry[1]
+fifo            w1/add_79/A[1]     net       net_original_name         A(1)
+fifo            w1/add_79/A[2]     net       net_original_name         A(2)
+fifo            w1/add_79/A[3]     net       net_original_name         A(3)
+fifo            w1/add_79/A[4]     net       net_original_name         A(4)
+fifo            w1/add_79/A[5]     net       net_original_name         A(5)
+fifo            w1/add_79/A[6]     net       net_original_name         A(6)
+fifo            w1/add_79/A[7]     net       net_original_name         A(7)
+fifo            w1/add_79/SUM[1]   net       net_original_name         SUM(1)
+fifo            w1/add_79/SUM[2]   net       net_original_name         SUM(2)
+fifo            w1/add_79/SUM[3]   net       net_original_name         SUM(3)
+fifo            w1/add_79/SUM[4]   net       net_original_name         SUM(4)
+fifo            w1/add_79/SUM[5]   net       net_original_name         SUM(5)
+fifo            w1/add_79/SUM[6]   net       net_original_name         SUM(6)
+fifo            w1/add_79/SUM[7]   net       net_original_name         SUM(7)
+fifo            w1/add_79/carry[2] net       net_original_name         carry(2)
+fifo            w1/add_79/carry[3] net       net_original_name         carry(3)
+fifo            w1/add_79/carry[4] net       net_original_name         carry(4)
+fifo            w1/add_79/carry[5] net       net_original_name         carry(5)
+fifo            w1/add_79/carry[6] net       net_original_name         carry(6)
+fifo            w1/add_79/carry[7] net       net_original_name         carry(7)
+fifo            w1/clk_in          net       net_original_name         clk_in
+fifo            w1/flush           net       net_original_name         flush
+fifo            w1/full            net       net_original_name         full
+fifo            w1/insert          net       net_original_name         insert
+fifo            w1/n38             net       net_original_name         wptr[7]
+fifo            w1/n39             net       net_original_name         wptr[6]
+fifo            w1/n40             net       net_original_name         wptr[5]
+fifo            w1/n41             net       net_original_name         wptr[4]
+fifo            w1/n42             net       net_original_name         wptr[3]
+fifo            w1/n43             net       net_original_name         wptr[2]
+fifo            w1/r2wsync_ff2[0]  net       net_original_name         r2wsync_ff2[0]
+fifo            w1/r2wsync_ff2[1]  net       net_original_name         r2wsync_ff2[1]
+fifo            w1/r2wsync_ff2[2]  net       net_original_name         r2wsync_ff2[2]
+fifo            w1/r2wsync_ff2[3]  net       net_original_name         r2wsync_ff2[3]
+fifo            w1/r2wsync_ff2[4]  net       net_original_name         r2wsync_ff2[4]
+fifo            w1/r2wsync_ff2[5]  net       net_original_name         r2wsync_ff2[5]
+fifo            w1/r2wsync_ff2[6]  net       net_original_name         r2wsync_ff2[6]
+fifo            w1/r2wsync_ff2[7]  net       net_original_name         r2wsync_ff2[7]
+fifo            w1/reset           net       net_original_name         reset
+fifo            w1/write_addr[0]   net       net_original_name         write_addr[0]
+fifo            w1/write_addr[1]   net       net_original_name         write_addr[1]
+fifo            w1/write_addr[2]   net       net_original_name         write_addr[2]
+fifo            w1/write_addr[3]   net       net_original_name         write_addr[3]
+fifo            w1/write_addr[4]   net       net_original_name         write_addr[4]
+fifo            w1/write_addr[5]   net       net_original_name         write_addr[5]
+fifo            w1/write_addr[6]   net       net_original_name         write_addr[6]
+fifo            w1/write_enable    net       net_original_name         write_enable
+fifo            w2r1/clk_out       net       net_original_name         clk_out
+fifo            w2r1/flush         net       net_original_name         flush
+fifo            w2r1/reset         net       net_original_name         reset
+fifo            w2r1/syn_flush     net       net_original_name         syn_flush
+fifo            w2r1/sync_flush1   net       net_original_name         sync_flush1
+fifo            w2r1/w2rsync_ff1[0]
+                                   net       net_original_name         w2rsync_ff1[0]
+fifo            w2r1/w2rsync_ff1[1]
+                                   net       net_original_name         w2rsync_ff1[1]
+fifo            w2r1/w2rsync_ff1[2]
+                                   net       net_original_name         w2rsync_ff1[2]
+fifo            w2r1/w2rsync_ff1[3]
+                                   net       net_original_name         w2rsync_ff1[3]
+fifo            w2r1/w2rsync_ff1[4]
+                                   net       net_original_name         w2rsync_ff1[4]
+fifo            w2r1/w2rsync_ff1[5]
+                                   net       net_original_name         w2rsync_ff1[5]
+fifo            w2r1/w2rsync_ff1[6]
+                                   net       net_original_name         w2rsync_ff1[6]
+fifo            w2r1/w2rsync_ff1[7]
+                                   net       net_original_name         w2rsync_ff1[7]
+fifo            w2r1/w2rsync_ff2[0]
+                                   net       net_original_name         w2rsync_ff2[0]
+fifo            w2r1/w2rsync_ff2[1]
+                                   net       net_original_name         w2rsync_ff2[1]
+fifo            w2r1/w2rsync_ff2[2]
+                                   net       net_original_name         w2rsync_ff2[2]
+fifo            w2r1/w2rsync_ff2[3]
+                                   net       net_original_name         w2rsync_ff2[3]
+fifo            w2r1/w2rsync_ff2[4]
+                                   net       net_original_name         w2rsync_ff2[4]
+fifo            w2r1/w2rsync_ff2[5]
+                                   net       net_original_name         w2rsync_ff2[5]
+fifo            w2r1/w2rsync_ff2[6]
+                                   net       net_original_name         w2rsync_ff2[6]
+fifo            w2r1/w2rsync_ff2[7]
+                                   net       net_original_name         w2rsync_ff2[7]
+fifo            w2r1/wptr[0]       net       net_original_name         wptr[0]
+fifo            w2r1/wptr[1]       net       net_original_name         wptr[1]
+fifo            w2r1/wptr[2]       net       net_original_name         wptr[2]
+fifo            w2r1/wptr[3]       net       net_original_name         wptr[3]
+fifo            w2r1/wptr[4]       net       net_original_name         wptr[4]
+fifo            w2r1/wptr[5]       net       net_original_name         wptr[5]
+fifo            w2r1/wptr[6]       net       net_original_name         wptr[6]
+fifo            w2r1/wptr[7]       net       net_original_name         wptr[7]
+fifo            clk_in             port      pin_on_clock_network_per_scn
+                                                                       true
+fifo            clk_out            port      pin_on_clock_network_per_scn
+                                                                       true
+fifo            fifo_memory_mem_width32_mem_depth128_depth7
+                                   reference hdl_parameter_types       
+fifo            fifo_memory_mem_width32_mem_depth128_depth7
+                                   reference hdl_canonical_params      depth=32'h00000007,mem_depth=32'h00000080,mem_width=32'h00000020
+fifo            fifo_memory_mem_width32_mem_depth128_depth7
+                                   reference hdl_parameters            32,128,7
+fifo            fifo_memory_mem_width32_mem_depth128_depth7
+                                   reference hdl_template              fifo_memory
+fifo            read_logic_depth7_width8
+                                   reference hdl_parameter_types       
+fifo            read_logic_depth7_width8
+                                   reference hdl_canonical_params      depth=32'h00000007,width=32'h00000008
+fifo            read_logic_depth7_width8
+                                   reference hdl_parameters            7,8
+fifo            read_logic_depth7_width8
+                                   reference hdl_template              read_logic
+fifo            sync_rd2wr_width8_depth7
+                                   reference hdl_parameter_types       
+fifo            sync_rd2wr_width8_depth7
+                                   reference hdl_canonical_params      depth=32'h00000007,width=32'h00000008
+fifo            sync_rd2wr_width8_depth7
+                                   reference hdl_parameters            8,7
+fifo            sync_rd2wr_width8_depth7
+                                   reference hdl_template              sync_rd2wr
+fifo            write_logic_depth7_width8
+                                   reference hdl_parameter_types       
+fifo            write_logic_depth7_width8
+                                   reference hdl_canonical_params      depth=32'h00000007,width=32'h00000008
+fifo            write_logic_depth7_width8
+                                   reference hdl_parameters            7,8
+fifo            write_logic_depth7_width8
+                                   reference hdl_template              write_logic
+fifo            sync_wr2rd_width8_depth7
+                                   reference hdl_parameter_types       
+fifo            sync_wr2rd_width8_depth7
+                                   reference hdl_canonical_params      depth=32'h00000007,width=32'h00000008
+fifo            sync_wr2rd_width8_depth7
+                                   reference hdl_parameters            8,7
+fifo            sync_wr2rd_width8_depth7
+                                   reference hdl_template              sync_wr2rd
+
+1

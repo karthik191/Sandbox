@@ -1,0 +1,41 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : fifo
+Version: I-2013.12-SP5-4
+Date   : Tue Apr 30 00:23:02 2019
+****************************************
+
+
+   max_delay/setup ('clk_in' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   w1/wptr_reg[1]/D             1.51           1.55 r        -0.03  (VIOLATED)
+   w1/wptr_reg[2]/D             1.51           1.55 r        -0.03  (VIOLATED)
+   w1/wptr_reg[6]/D             1.51           1.55 r        -0.03  (VIOLATED)
+   w1/wptr_reg[5]/D             1.51           1.55 r        -0.03  (VIOLATED)
+   w1/wptr_reg[7]/D             1.51           1.55 r        -0.03  (VIOLATED)
+   w1/wptr_reg[0]/D             1.52           1.55 r        -0.03  (VIOLATED)
+   w1/wptr_reg[3]/D             1.52           1.55 r        -0.03  (VIOLATED)
+   w1/wptr_reg[4]/D             1.52           1.55 r        -0.03  (VIOLATED)
+   w1/write_addr_reg[5]/D       1.51           1.54 r        -0.02  (VIOLATED)
+   w1/write_addr_reg[4]/D       1.51           1.54 r        -0.02  (VIOLATED)
+   w1/write_addr_reg[2]/D       1.51           1.54 r        -0.02  (VIOLATED)
+   w1/write_addr_reg[6]/D       1.51           1.52 r        -0.01  (VIOLATED)
+   w1/write_addr_reg[0]/D       1.51           1.52 r        -0.01  (VIOLATED)
+   w1/write_addr_reg[3]/D       1.52           1.52 r         0.00  (VIOLATED: increase significant digits)
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   fifo                         0.00       247375.50      -247375.50
+                                                                    (VIOLATED)
+
+
+1

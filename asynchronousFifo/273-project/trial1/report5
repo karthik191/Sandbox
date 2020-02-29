@@ -1,0 +1,83 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : fifo
+Version: I-2013.12-SP5-4
+Date   : Mon Apr 29 23:49:37 2019
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: w1/temp4_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_in)
+  Endpoint: w1/temp_data_in_reg[0]
+            (rising edge-triggered flip-flop clocked by clk_in)
+  Path Group: clk_in
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fifo               280000                saed90nm_typ
+  write_logic_depth7_width8
+                     8000                  saed90nm_typ
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk_in (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  w1/temp4_reg[0]/CLK (DFFX1)              0.00       0.00 r
+  w1/temp4_reg[0]/Q (DFFX1)                0.17       0.17 f
+  w1/temp_data_in_reg[0]/D (DFFARX1)       0.04       0.21 f
+  data arrival time                                   0.21
+
+  clock clk_in (rise edge)                 0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  w1/temp_data_in_reg[0]/CLK (DFFARX1)     0.00       0.00 r
+  library hold time                       -0.01      -0.01
+  data required time                                 -0.01
+  -----------------------------------------------------------
+  data required time                                 -0.01
+  data arrival time                                  -0.21
+  -----------------------------------------------------------
+  slack (MET)                                         0.22
+
+
+  Startpoint: w2r1/sync_flush1_reg
+              (rising edge-triggered flip-flop clocked by clk_out)
+  Endpoint: w2r1/syn_flush_reg
+            (rising edge-triggered flip-flop clocked by clk_out)
+  Path Group: clk_out
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fifo               280000                saed90nm_typ
+  sync_wr2rd_width8_depth7
+                     8000                  saed90nm_typ
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk_out (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  w2r1/sync_flush1_reg/CLK (DFFX1)         0.00       0.00 r
+  w2r1/sync_flush1_reg/Q (DFFX1)           0.17       0.17 f
+  w2r1/syn_flush_reg/D (DFFARX1)           0.04       0.21 f
+  data arrival time                                   0.21
+
+  clock clk_out (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  w2r1/syn_flush_reg/CLK (DFFARX1)         0.00       0.00 r
+  library hold time                       -0.01      -0.01
+  data required time                                 -0.01
+  -----------------------------------------------------------
+  data required time                                 -0.01
+  data arrival time                                  -0.21
+  -----------------------------------------------------------
+  slack (MET)                                         0.22
+
+
+1

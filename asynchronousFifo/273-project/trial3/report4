@@ -1,0 +1,102 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fifo
+Version: I-2013.12-SP5-4
+Date   : Tue Apr 30 00:23:03 2019
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: r2w1/r2wsync_ff2_reg[3]
+              (rising edge-triggered flip-flop clocked by clk_in)
+  Endpoint: w1/wptr_reg[1]
+            (rising edge-triggered flip-flop clocked by clk_in)
+  Path Group: clk_in
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fifo               280000                saed90nm_typ
+  write_logic_depth7_width8
+                     8000                  saed90nm_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_in (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  r2w1/r2wsync_ff2_reg[3]/CLK (DFFARX1)                   0.00       0.00 r
+  r2w1/r2wsync_ff2_reg[3]/Q (DFFARX1)                     0.19       0.19 f
+  r2w1/r2wsync_ff2[3] (sync_rd2wr_width8_depth7)          0.00       0.19 f
+  w1/r2wsync_ff2[3] (write_logic_depth7_width8)           0.00       0.19 f
+  w1/U66/Q (XNOR2X2)                                      0.65       0.84 r
+  w1/U48/QN (NOR2X0)                                      0.09       0.93 f
+  w1/U84/QN (NAND2X0)                                     0.07       1.01 r
+  w1/U83/QN (NOR3X0)                                      0.11       1.12 f
+  w1/U74/QN (NAND2X0)                                     0.08       1.20 r
+  w1/U73/Q (AND3X1)                                       0.11       1.30 r
+  w1/U60/Q (OA21X1)                                       0.10       1.41 r
+  w1/U57/Q (AO22X1)                                       0.11       1.51 r
+  w1/wptr_reg[1]/D (DFFARX1)                              0.03       1.55 r
+  data arrival time                                                  1.55
+
+  clock clk_in (rise edge)                                1.60       1.60
+  clock network delay (ideal)                             0.00       1.60
+  w1/wptr_reg[1]/CLK (DFFARX1)                            0.00       1.60 r
+  library setup time                                     -0.09       1.51
+  data required time                                                 1.51
+  --------------------------------------------------------------------------
+  data required time                                                 1.51
+  data arrival time                                                 -1.55
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.03
+
+
+  Startpoint: r1/rptr_reg[0]
+              (rising edge-triggered flip-flop clocked by clk_out)
+  Endpoint: r1/rptr_reg[0]
+            (rising edge-triggered flip-flop clocked by clk_out)
+  Path Group: clk_out
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fifo               280000                saed90nm_typ
+  read_logic_depth7_width8
+                     8000                  saed90nm_typ
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk_out (rise edge)                0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  r1/rptr_reg[0]/CLK (DFFARX1)             0.00       0.00 r
+  r1/rptr_reg[0]/Q (DFFARX1)               0.19       0.19 r
+  r1/U47/Q (XOR2X1)                        1.56       1.75 r
+  r1/U43/QN (NOR4X0)                       0.11       1.86 f
+  r1/U42/QN (NAND4X0)                      0.12       1.98 r
+  r1/U41/QN (NOR2X0)                       0.12       2.10 f
+  r1/U28/QN (NOR3X0)                       0.12       2.22 r
+  r1/U27/Q (AO21X1)                        0.16       2.38 r
+  r1/U24/QN (NOR2X0)                       0.23       2.61 f
+  r1/U14/Q (OA21X1)                        0.15       2.76 f
+  r1/U5/Q (AO22X1)                         0.14       2.90 f
+  r1/rptr_reg[0]/D (DFFARX1)               0.03       2.94 f
+  data arrival time                                   2.94
+
+  clock clk_out (rise edge)                3.20       3.20
+  clock network delay (ideal)              0.00       3.20
+  r1/rptr_reg[0]/CLK (DFFARX1)             0.00       3.20 r
+  library setup time                      -0.06       3.14
+  data required time                                  3.14
+  -----------------------------------------------------------
+  data required time                                  3.14
+  data arrival time                                  -2.94
+  -----------------------------------------------------------
+  slack (MET)                                         0.21
+
+
+1

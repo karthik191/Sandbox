@@ -1,0 +1,32 @@
+Area Report
+****************************************
+Report : area
+Design : fifo
+Version: I-2013.12-SP5-4
+Date   : Tue Apr 30 01:15:05 2019
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed90nm_typ (File: /netdisk/tmp/saed/SAED90_EDK/SAED_EDK90nm/Digital_Standard_cell_Library/synopsys/models/saed90nm_typ.db)
+
+Number of ports:                           72
+Number of nets:                           154
+Number of cells:                            5
+Number of combinational cells:              0
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          0
+Number of references:                       5
+
+Combinational area:             128402.843143
+Buf/Inv area:                    12374.323473
+Noncombinational area:           95447.349611
+Macro/Black Box area:                0.000000
+Net Interconnect area:           23500.373792
+
+Total cell area:                223850.192755
+Total area:                     247350.566547
+1
+

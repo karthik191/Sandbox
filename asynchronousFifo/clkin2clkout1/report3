@@ -1,0 +1,48 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : fifo
+Version: I-2013.12-SP5-4
+Date   : Fri Apr 26 19:25:43 2019
+****************************************
+
+
+   max_delay/setup ('clk_out' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   r1/rptr_reg[5]/D             0.91           1.44 r        -0.53  (VIOLATED)
+   r1/rptr_reg[1]/D             0.91           1.44 r        -0.53  (VIOLATED)
+   r1/rptr_reg[0]/D             0.91           1.44 r        -0.53  (VIOLATED)
+   r1/read_addr_reg[0]/D        0.91           1.44 r        -0.53  (VIOLATED)
+   r1/read_addr_reg[3]/D        0.91           1.44 r        -0.53  (VIOLATED)
+   r1/rptr_reg[2]/D             0.91           1.44 r        -0.53  (VIOLATED)
+   r1/rptr_reg[3]/D             0.91           1.44 r        -0.53  (VIOLATED)
+   r1/rptr_reg[4]/D             0.91           1.44 r        -0.53  (VIOLATED)
+   r1/rptr_reg[6]/D             0.91           1.44 r        -0.53  (VIOLATED)
+   r1/rptr_reg[7]/D             0.91           1.44 r        -0.53  (VIOLATED)
+   r1/read_addr_reg[1]/D        0.91           1.43 r        -0.51  (VIOLATED)
+   r1/read_addr_reg[2]/D        0.91           1.43 r        -0.51  (VIOLATED)
+   r1/read_addr_reg[5]/D        0.91           1.43 r        -0.51  (VIOLATED)
+   r1/read_addr_reg[4]/D        0.91           1.40 r        -0.49  (VIOLATED)
+   r1/read_addr_reg[6]/D        0.91           1.40 r        -0.49  (VIOLATED)
+   r1/empty_reg/D               0.90           1.35 r        -0.45  (VIOLATED)
+   r1/read_enable_reg/D         0.92           1.35 r        -0.44  (VIOLATED)
+   r1/current_state_reg[1]/D
+                                0.94           1.24 f        -0.30  (VIOLATED)
+   r1/current_state_reg[0]/D
+                                0.91           0.97 r        -0.05  (VIOLATED)
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   fifo                         0.00       193710.33      -193710.33
+                                                                    (VIOLATED)
+
+
+1

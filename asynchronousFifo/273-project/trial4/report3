@@ -1,0 +1,21 @@
+Constraint Report
+****************************************
+Report : constraint
+        -all_violators
+Design : fifo
+Version: I-2013.12-SP5-4
+Date   : Tue Apr 30 01:15:06 2019
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   fifo                         0.00       247350.56      -247350.56
+                                                                    (VIOLATED)
+
+
+1
+
