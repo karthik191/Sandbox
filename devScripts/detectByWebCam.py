@@ -2,7 +2,6 @@ import cv2
 import sys
 
 cascPath = 'D:\Python\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml'
-#cascPath = 'D:\Python\Lib\site-packages\cv2\data\haarcascade_eye_tree_eyeglasses.xml'
 faceCascade = cv2.CascadeClassifier(cascPath)
 
 video_capture = cv2.VideoCapture(0)
@@ -18,7 +17,7 @@ while True:
         scaleFactor=1.1,
         minNeighbors=5,
         minSize=(30, 30),
-        #flags=cv2.cv.CV_HAAR_SCALE_IMAGE
+        #flags=cv2.CV_HAAR_SCALE_IMAGE
         flags=cv2.CASCADE_SCALE_IMAGE
 
     )
