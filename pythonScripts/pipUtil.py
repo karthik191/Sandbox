@@ -1,7 +1,7 @@
 #!/usr/bin/env python 
 
 #ScriptName: pipUtils.py
-#Author: kshekara
+#Author: karthikms.erappa@gmail.com
 #Description:Easier way to pip new modules ...........it's bullshit - Just a wrapper for pip
 ###################################################################
 
@@ -14,13 +14,16 @@ import argparse
 #To install utils
 def installUtils(utilsList):
     #check and install either utils or upgrade all utils
+    #make sure that all is not repeated twice in the list
     upgradeFlag = 0
     for util in utilsList:
-        if util == 'all' && upgradeFlag == 0:
+        if util == 'all' and upgradeFlag == 0:
+            print('-I- Installing updates')
             os.system('sudo apt-get upgrade')
             upgradeFlag = 1
             #print('sudo apt-get upgrade')
         else:
+            print('-I- Installing package ' + util)
             os.system('sudo apt-get install ' + util)
             #print('sudo apt-get install ' + util)
 
